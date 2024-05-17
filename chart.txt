@@ -1,0 +1,23 @@
+project completed : 100%
+
+parth User
+1 completed : create UserDB database
+			parthDB 
+			 
+2 completed : create pre-defined table 
+		real-estate : string rname(asstes, income), rcashflow(income), rcost(asstes)
+		Exp : string ename(Expenses), ecost(Expenses)
+		Loan : lname(libality, Expenses(emi)), lmoney(libality), lemi(Expenses)
+		Investemnt stock : sname(income), sdividends(income), scost(asstes), stotal(asstes)
+		Trading stock : sname(asstes), stotal(asstes), scost(asstes)
+
+task 3 : set(completed) and get(completed) data to database and table
+
+task 4 : implement logic
+	income -> income + InvestemntstockDividend, real-estatecashflow
+	Expenses -> Tax + Expenses + loanemi
+	asstes -> TradingPerPrice(with totalstock) + real-estatecost + investmentPerPrice
+	libality -> loan + real-estate
+	payday -> totalincome - totalexpense
+	passiveincome -> totalrealestatecashflow + investementstockdividend / (sideincome = totalincome - income)
+	finacialfreedom -> passiveincome - Expenses
